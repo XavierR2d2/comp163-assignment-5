@@ -22,7 +22,23 @@ Number_divisorEnd = number - 1
 print(f"Testing divisors from {Number_divisorStart} to {Number_divisorEnd}...")
 for divisor in range(Number_divisorStart, Number_divisorEnd + 1):
     if number % divisor == 0:
-        print(f"{number} is not prime (divisble by {divisor})")
+        print(f"{number} is not prime (divisible by {divisor})")
         break
 else:
     print(f"{number} is prime!\n")
+
+#Done for the Final Challenge Commit
+print("=== Challenge 3: Multiplication Table ===")
+print("Multiplication Table:")
+print(" ", end="")
+
+for header in range(1, 11):
+    print(f"{header: 4}", end="")
+print()
+
+for row in range(1, 11):
+    print(f"{row: 2}", end="")
+    for column in range(1, 11):
+        table_value = row * column
+        print(f"{table_value: 4}", end="")
+    print()
