@@ -4,7 +4,7 @@
 
 #For Challenge two, I picked a for statement because the inputting of a start and finish of the loop would allow it to have a set amount of loops I could use for the for loop.
 
-# Lastly, for the final challenge, I picked another for loop since we are doing a set amount of multiplication for the table. It was easy to figure out the set amount I needed for both loops.
+#Lastly, for the final challenge, I picked another for loop since we are doing a set amount of multiplication for the table. It was easy to figure out the set amount I needed for both loops.
 
 # How did your Solutions work?
 #for the first challenge, I made it so that the user could input their starting number, and based on whatever number it was, it would use the Collatz rule to get it down to 1. Then it would also show the steps it took and how many steps it took to get that input number to 1
